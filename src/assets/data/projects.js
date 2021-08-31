@@ -11,8 +11,8 @@ const projects = [
     name: 'Portfolio Websitie II',
     desc: 'My portfolio website built using React, JavaScript, HTML and CSS.',
     img: ReactPortfolio,
-    ghlink: 'https://github.com/lojickse7en?tab=repositories',
-    wslink: 'https://sass-lang.com/guide',
+    ghlink: 'https://github.com/lojickse7en/myportfolio-2',
+    wslink: 'https://lojickse7en.github.io/myportfolio-2/',
   },
   {
     id: uuidv4(),
