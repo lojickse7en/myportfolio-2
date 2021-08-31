@@ -164,7 +164,7 @@ export default function HeroSection() {
             </PText>
             <Button
               btnLink="http://resume.lojickse7en.net/Adebayo%20Adewole%20Resume_B.pdf"
-              btnText="Resume ⬇️"
+              btnText="Resume ⤓"
               outline={false}
             />
           </div>
