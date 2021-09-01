@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { SocialMediaIconsReact } from 'social-media-icons-react';
 import HeroImg from '../assets/images/headshot_bw.jpg';
 import PText from './PText';
 import Button from './Button';
@@ -141,9 +142,18 @@ const HeroStyles = styled.div`
       }
     }
   }
+  /* .project__button { */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 10px; */
+  /* width: 900px; */
+  /* height: 900px; */
+  /* } */
 `;
 
-export default function HeroSection() {
+export default function HeroSection({ ghlink = 'google.com' }) {
   return (
     <HeroStyles>
       <div className="hero">
@@ -168,6 +178,20 @@ export default function HeroSection() {
               outline={false}
             />
           </div>
+          {/* <div className="project__button">
+            <SocialMediaIconsReact
+              borderColor="rgba(0,0,0,0.25)"
+              borderWidth="0"
+              borderStyle="solid"
+              icon="github"
+              iconColor="rgba(188,180,180,1)"
+              backgroundColor="rgba(0,0,0,0)"
+              iconSize="0"
+              roundness="50%"
+              url={ghlink}
+              size="1"
+            />
+          </div> */}
           <div className="hero__social">
             <div className="hero__social__indicator">
               <p>Follow</p>
