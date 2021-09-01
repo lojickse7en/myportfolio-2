@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/myportfolio-2/static/js/main.e3ae9058.chunk.js",
-    "main.js.map": "/myportfolio-2/static/js/main.e3ae9058.chunk.js.map",
+    "main.js": "/myportfolio-2/static/js/main.0fc1487f.chunk.js",
+    "main.js.map": "/myportfolio-2/static/js/main.0fc1487f.chunk.js.map",
     "runtime-main.js": "/myportfolio-2/static/js/runtime-main.741fe2a7.js",
     "runtime-main.js.map": "/myportfolio-2/static/js/runtime-main.741fe2a7.js.map",
     "static/css/2.41ebb63b.chunk.css": "/myportfolio-2/static/css/2.41ebb63b.chunk.css",
-    "static/js/2.133836df.chunk.js": "/myportfolio-2/static/js/2.133836df.chunk.js",
-    "static/js/2.133836df.chunk.js.map": "/myportfolio-2/static/js/2.133836df.chunk.js.map",
+    "static/js/2.ebd55b2d.chunk.js": "/myportfolio-2/static/js/2.ebd55b2d.chunk.js",
+    "static/js/2.ebd55b2d.chunk.js.map": "/myportfolio-2/static/js/2.ebd55b2d.chunk.js.map",
     "index.html": "/myportfolio-2/index.html",
     "static/css/2.41ebb63b.chunk.css.map": "/myportfolio-2/static/css/2.41ebb63b.chunk.css.map",
-    "static/js/2.133836df.chunk.js.LICENSE.txt": "/myportfolio-2/static/js/2.133836df.chunk.js.LICENSE.txt",
+    "static/js/2.ebd55b2d.chunk.js.LICENSE.txt": "/myportfolio-2/static/js/2.ebd55b2d.chunk.js.LICENSE.txt",
     "static/media/Montserrat-Bold.079ca05d.ttf": "/myportfolio-2/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/myportfolio-2/static/media/Montserrat-SemiBold.fa8441f3.ttf",
     "static/media/RobotoMono-Regular.418a8f9f.ttf": "/myportfolio-2/static/media/RobotoMono-Regular.418a8f9f.ttf",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.741fe2a7.js",
     "static/css/2.41ebb63b.chunk.css",
-    "static/js/2.133836df.chunk.js",
-    "static/js/main.e3ae9058.chunk.js"
+    "static/js/2.ebd55b2d.chunk.js",
+    "static/js/main.0fc1487f.chunk.js"
   ]
 }
