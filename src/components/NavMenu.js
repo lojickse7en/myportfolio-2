@@ -30,7 +30,7 @@ const NavMenuStyles = styled.div`
       padding: 1rem 2rem;
       font-size: 2rem;
       color: var(--gray-1);
-      outline: none:
+      outline: none;
     }
     .active {
       color: var(--white);
@@ -42,24 +42,23 @@ const NavMenuStyles = styled.div`
     top: 1rem;
     width: 4rem;
     cursor: pointer;
-    display: none;  
+    display: none;
     outline: none;
     * {
-    pointer-events: none;
-  }
+      pointer-events: none;
+    }
   }
   .closeNavIcon {
     display: none;
   }
   @media only screen and (max-width: 768px) {
     padding: 0;
-    .hide-item{
+    .hide-item {
       transform: translateY(calc(-100% - var(--top)));
     }
     .mobile-menu-icon {
       display: block;
-    }  
-    
+    }
     .navItems {
       --top: 1rem;
       transition: 0.3s ease transform;
@@ -76,7 +75,7 @@ const NavMenuStyles = styled.div`
         width: 3rem;
         margin: 0 0 0 auto;
         cursor: pointer;
-        *{
+        * {
           pointer-events: none;
         }
       }
@@ -101,7 +100,7 @@ export default function NavMenu() {
       >
         <MdMenu />
       </div>
-      <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
+      <ul className={!showNav ? 'hide-item' : 'navItems'}>
         <div
           className="closeNavIcon"
           onClick={() => SetShowNav(!showNav)}

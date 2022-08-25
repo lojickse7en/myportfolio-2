@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SocialMediaIconsReact } from 'social-media-icons-react';
+// import { SocialMediaIconsReact } from 'social-media-icons-react';
 import HeroImg from '../assets/images/headshot_bw.jpg';
 import PText from './PText';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+// import ResumePDF from '../assets/data/AdebayoAdewoleResume.pdf';
 
 const HeroStyles = styled.div`
   .hero {
@@ -152,15 +153,15 @@ const HeroStyles = styled.div`
   /* height: 900px; */
   /* } */
 `;
-
-export default function HeroSection({ ghlink = 'google.com' }) {
+// { ghlink = 'google.com' }
+export default function HeroSection() {
   return (
     <HeroStyles>
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, this is</span>
-            <span className="hero__name">Adebayo Adewole</span>
+            <span>hello, this is</span>
+            <span className="hero__name"> Adebayo Adewole</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
@@ -174,6 +175,8 @@ export default function HeroSection({ ghlink = 'google.com' }) {
             </PText>
             <Button
               btnLink="http://resume.lojickse7en.net/Adebayo%20Adewole%20Resume_B.pdf"
+              // href={ResumePDF}
+              // href={require('../assets/data/AdebayoAdewoleResume.pdf')}
               btnText="Resume ⤓"
               outline={false}
             />

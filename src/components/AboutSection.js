@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
 import Button from './Button';
-import AboutImg from '../assets/images/about-sec-img.png';
+// import AboutImg from '../assets/images/about-sec-img.png';
 
 const AboutSectionStyle = styled.div`
   padding: 10rem 0;
@@ -27,7 +27,7 @@ const AboutSectionStyle = styled.div`
   .aboutSection__buttons {
     display: flex;
     align-items: center;
-    justify-content: flext-start;
+    justify-content: flex-start;
     gap: 2rem;
     margin-top: 2rem;
   }

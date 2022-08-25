@@ -1,10 +1,10 @@
 import React from 'react';
-import { MdCode, MdDesktopMac, MdPhonelinkSetup } from 'react-icons/md';
+import { MdCode, MdDesktopMac, MdPhoneLinkSetup } from 'react-icons/md';
 import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import ServicesSectionItem from './ServicesSectionItem';
 
-const ServicesItemSytles = styled.div`
+const ServicesItemStyles = styled.div`
   /* padding: 10rem 0; */
   .services__allItems {
     display: flex;
@@ -24,7 +24,7 @@ const ServicesItemSytles = styled.div`
 
 export default function ServicesSection() {
   return (
-    <ServicesItemSytles>
+    <ServicesItemStyles>
       <div className="container">
         <SectionTitle heading="Services" subheading="what will i do for you" />
         <div className="services__allItems">
@@ -39,12 +39,12 @@ export default function ServicesSection() {
             desc="I bring UI design to life using various coding languages. "
           />
           <ServicesSectionItem
-            icon={<MdPhonelinkSetup />}
+            icon={<MdPhoneLinkSetup />}
             title="App Dev"
             desc="I have experience in front end and backend application development with stellar UI"
           />
         </div>
       </div>
-    </ServicesItemSytles>
+    </ServicesItemStyles>
   );
 }

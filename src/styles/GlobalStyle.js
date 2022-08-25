@@ -25,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
   a{
     text-decoration: none;
   }
-  img, svg{
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
