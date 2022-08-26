@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { MdSearch } from 'react-icons/md';
 import SectionTitle from '../components/SectionTitle';
 import ProjectItem from '../components/ProjectItem';
+import ProjectItem2 from '../components/ProjectItem2';
 import ProjectInfo from '../assets/data/projects';
 
 const ProjectsStyle = styled.div`
@@ -80,15 +81,29 @@ export default function Projects() {
           </form>
         </div>
         <div className="projects__allItems">
-          {projectData.map((item) => (
-            <ProjectItem
-              key={item.id}
-              title={item.name}
-              desc={item.desc}
-              img={item.img}
-            />
-          ))}
-          {/* <ProjectItem /> */}
+          {projectData.map((item, index) => {
+            if (index < 4) {
+              return (
+                <ProjectItem
+                  key={item.id}
+                  title={item.name}
+                  desc={item.desc}
+                  img={item.img}
+                  ghlink={item.ghlink}
+                  wslink={item.wslink}
+                />
+              );
+            }
+            return (
+              <ProjectItem2
+                key={item.id}
+                title={item.name}
+                desc={item.desc}
+                img={item.img}
+                wslink={item.wslink}
+              />
+            );
+          })}
         </div>
       </div>
     </ProjectsStyle>

@@ -5,6 +5,7 @@ import SwiperCore, { Navigation } from 'swiper';
 import SectionTitle from './SectionTitle';
 import projects from '../assets/data/projects';
 import ProjectItem from './ProjectItem';
+import ProjectItem2 from './ProjectItem2';
 import 'swiper/swiper-bundle.min.css';
 
 SwiperCore.use([Navigation]);
@@ -78,6 +79,19 @@ export default function ProjectSection() {
           >
             {projects.map((project, index) => {
               if (index >= 5) return;
+
+              if (index === 4) {
+                return (
+                  <SwiperSlide key={project.id}>
+                    <ProjectItem2
+                      title={project.name}
+                      img={project.img}
+                      desc={project.desc}
+                      wslink={project.wslink}
+                    />
+                  </SwiperSlide>
+                );
+              }
               return (
                 <SwiperSlide key={project.id}>
                   <ProjectItem

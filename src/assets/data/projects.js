@@ -44,7 +44,7 @@ const projects = [
     name: 'Construction Website',
     desc: 'Website for construction firm based in New York City. Built on WordPress CMS with some custom CSS and HTML',
     img: ConstructionWebsite,
-    wslink: 'https://www.camtristate.com/',
+    wslink: 'https://camtristate.com/',
   },
   {
     id: uuidv4(),

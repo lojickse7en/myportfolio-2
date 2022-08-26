@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 // import { SocialMediaIconsReact } from 'social-media-icons-react';
 import { BiWorld } from 'react-icons/bi';
-import { BsGithub } from 'react-icons/bs';
+// import { BsGithub } from 'react-icons/bs';
 import projectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
@@ -51,7 +51,6 @@ export default function ProjectItem({
   img = projectImg,
   title = 'Project Name',
   desc = 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor',
-  ghlink = 'google.com',
   wslink = 'firefox.com',
 }) {
   return (
@@ -67,9 +66,6 @@ export default function ProjectItem({
         <div className="project__button">
           <a href={wslink}>
             <BiWorld size="75" />
-          </a>
-          <a href={ghlink}>
-            <BsGithub size="62" />
           </a>
         </div>
       </div>
