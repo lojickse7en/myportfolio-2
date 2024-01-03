@@ -28,7 +28,13 @@ export default function Button({
 }) {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <a className="button" href={btnLink} to={btnLink}>
+      <a
+        className="button"
+        href={btnLink}
+        to={btnLink}
+        target="_blank"
+        rel="noreferrer"
+      >
         {btnText}
       </a>
     </ButtonStyle>
