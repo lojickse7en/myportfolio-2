@@ -1,33 +1,27 @@
 {
   "files": {
-    "main.js": "/myportfolio-2/static/js/main.4c467240.chunk.js",
-    "main.js.map": "/myportfolio-2/static/js/main.4c467240.chunk.js.map",
-    "runtime-main.js": "/myportfolio-2/static/js/runtime-main.f39d7b35.js",
-    "runtime-main.js.map": "/myportfolio-2/static/js/runtime-main.f39d7b35.js.map",
-    "static/css/2.87d64ae1.chunk.css": "/myportfolio-2/static/css/2.87d64ae1.chunk.css",
-    "static/js/2.444773b6.chunk.js": "/myportfolio-2/static/js/2.444773b6.chunk.js",
-    "static/js/2.444773b6.chunk.js.map": "/myportfolio-2/static/js/2.444773b6.chunk.js.map",
+    "main.css": "/myportfolio-2/static/css/main.23883dd6.css",
+    "main.js": "/myportfolio-2/static/js/main.5ddc0dce.js",
+    "static/media/rod_welding_website.png": "/myportfolio-2/static/media/rod_welding_website.4fc75f52c7d2c19016c9.png",
+    "static/media/camtristate_website.png": "/myportfolio-2/static/media/camtristate_website.302a556be7e9c3c8632e.png",
+    "static/media/BCC_Screeshot.png": "/myportfolio-2/static/media/BCC_Screeshot.3446aa7d475efae0cb99.png",
+    "static/media/pokedex_screenshot.png": "/myportfolio-2/static/media/pokedex_screenshot.c89799494b8f24870fe4.png",
+    "static/media/headshot_bw.jpg": "/myportfolio-2/static/media/headshot_bw.e6b6a2170fe6eb111521.jpg",
+    "static/media/react_portfolio_screenshot.png": "/myportfolio-2/static/media/react_portfolio_screenshot.825848230ed0cb898fcb.png",
+    "static/media/portfolio_site.png": "/myportfolio-2/static/media/portfolio_site.260b2e66c45817c70f10.png",
+    "static/media/Montserrat-Bold.ttf": "/myportfolio-2/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/myportfolio-2/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/RobotoMono-Regular.ttf": "/myportfolio-2/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
+    "static/media/password_generator.png": "/myportfolio-2/static/media/password_generator.c95f006b6b9dd3ad11e3.png",
+    "static/media/projectImg.png": "/myportfolio-2/static/media/projectImg.771236e1a97e2201a189.png",
     "index.html": "/myportfolio-2/index.html",
-    "static/css/2.87d64ae1.chunk.css.map": "/myportfolio-2/static/css/2.87d64ae1.chunk.css.map",
-    "static/js/2.444773b6.chunk.js.LICENSE.txt": "/myportfolio-2/static/js/2.444773b6.chunk.js.LICENSE.txt",
-    "static/media/Montserrat-Bold.079ca05d.ttf": "/myportfolio-2/static/media/Montserrat-Bold.079ca05d.ttf",
-    "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/myportfolio-2/static/media/Montserrat-SemiBold.fa8441f3.ttf",
-    "static/media/RobotoMono-Regular.418a8f9f.ttf": "/myportfolio-2/static/media/RobotoMono-Regular.418a8f9f.ttf",
-    "static/media/camtristate_website.302a556b.png": "/myportfolio-2/static/media/camtristate_website.302a556b.png",
-    "static/media/covid_tracker.fb019528.png": "/myportfolio-2/static/media/covid_tracker.fb019528.png",
-    "static/media/headshot_bw.e6b6a217.jpg": "/myportfolio-2/static/media/headshot_bw.e6b6a217.jpg",
-    "static/media/password_generator.c95f006b.png": "/myportfolio-2/static/media/password_generator.c95f006b.png",
-    "static/media/portfolio_site.260b2e66.png": "/myportfolio-2/static/media/portfolio_site.260b2e66.png",
-    "static/media/projectImg.771236e1.png": "/myportfolio-2/static/media/projectImg.771236e1.png",
-    "static/media/react_portfolio_screenshot.82584823.png": "/myportfolio-2/static/media/react_portfolio_screenshot.82584823.png",
-    "static/media/rod_welding_website.4fc75f52.png": "/myportfolio-2/static/media/rod_welding_website.4fc75f52.png",
-    "static/media/scroll-down-arrow.b013ca45.svg": "/myportfolio-2/static/media/scroll-down-arrow.b013ca45.svg",
-    "static/media/social-media-arrow.f5e093ce.svg": "/myportfolio-2/static/media/social-media-arrow.f5e093ce.svg"
+    "static/media/scroll-down-arrow.svg": "/myportfolio-2/static/media/scroll-down-arrow.b013ca458cf827f32732e3ce3c691d03.svg",
+    "static/media/social-media-arrow.svg": "/myportfolio-2/static/media/social-media-arrow.f5e093ceb316785e72dc77d75e5ed04f.svg",
+    "main.23883dd6.css.map": "/myportfolio-2/static/css/main.23883dd6.css.map",
+    "main.5ddc0dce.js.map": "/myportfolio-2/static/js/main.5ddc0dce.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f39d7b35.js",
-    "static/css/2.87d64ae1.chunk.css",
-    "static/js/2.444773b6.chunk.js",
-    "static/js/main.4c467240.chunk.js"
+    "static/css/main.23883dd6.css",
+    "static/js/main.5ddc0dce.js"
   ]
 }
