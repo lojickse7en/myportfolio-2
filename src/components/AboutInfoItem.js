@@ -5,7 +5,7 @@ import PText from './PText';
 const AboutItemStyles = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-top: 3rem;
   .title {
     font-size: 2.4rem;
@@ -13,8 +13,13 @@ const AboutItemStyles = styled.div`
   .items {
     display: flex;
     gap: 1.5rem;
-    position: absolute;
-    left: 38rem;
+    /* position: absolute; */
+    /* left: 38rem; */
+  }
+  .item-title {
+    width: 30rem;
+    display: flex;
+    justify-content: left;
   }
   .item {
     background-color: var(--deep-dark);
@@ -28,6 +33,8 @@ const AboutItemStyles = styled.div`
     .items {
       position: initial;
       gap: 1rem;
+      display: flex;
+      flex-wrap: wrap;
     }
     .title {
       font-size: 2rem;
@@ -41,7 +48,9 @@ export default function AboutInfoItem({
 }) {
   return (
     <AboutItemStyles>
-      <h1 className="title">{title}</h1>
+      <div className="item-title">
+        <h1 className="title">{title}</h1>
+      </div>
       <div className="items">
         {items.map((item, index) => (
           <div className="item" key={index}>

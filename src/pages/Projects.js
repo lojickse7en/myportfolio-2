@@ -81,25 +81,25 @@ export default function Projects() {
           </form>
         </div>
         <div className="projects__allItems">
-          {projectData.map((item, index) => {
-            if (index < 4) {
+          {projectData.map((item) => {
+            if (!item.ghlink) {
               return (
-                <ProjectItem
+                <ProjectItem2
                   key={item.id}
                   title={item.name}
                   desc={item.desc}
                   img={item.img}
-                  ghlink={item.ghlink}
                   wslink={item.wslink}
                 />
               );
             }
             return (
-              <ProjectItem2
+              <ProjectItem
                 key={item.id}
                 title={item.name}
                 desc={item.desc}
                 img={item.img}
+                ghlink={item.ghlink}
                 wslink={item.wslink}
               />
             );

@@ -1,10 +1,12 @@
 import { v4 as uuidv4 } from 'uuid';
 import WeldingWebsite from '../images/rod_welding_website.png';
 import ReactPortfolio from '../images/react_portfolio_screenshot.png';
-import CovidTracker from '../images/covid_tracker.png';
+// import CovidTracker from '../images/covid_tracker.png';
 import HTMLPortfolio from '../images/portfolio_site.png';
 import PasswordGenerator from '../images/password_generator.png';
 import ConstructionWebsite from '../images/camtristate_website.png';
+import PokedexWebApp from '../images/pokedex_screenshot.png';
+import BCCWebsite from '../images/BCC_Screeshot.png';
 
 const projects = [
   {
@@ -17,11 +19,11 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Covid-19 Tracker',
-    desc: 'This is an app I built to track the number of covid cased by country and represents the data graphically. Built using React, Javascript, HTML and CSS. There is also some API integration using Axios.',
-    img: CovidTracker,
-    ghlink: 'https://github.com/lojickse7en/covid_19_tracker',
-    wslink: 'http://lojickse7en.github.io/covid_19_tracker',
+    name: 'Pokedex Web Application',
+    desc: 'Small application utilizing React to display detailed stats on listed Pokemon',
+    img: PokedexWebApp,
+    ghlink: 'https://github.com/lojickse7en/pokedex-app',
+    wslink: 'https://lojickse7en.github.io/pokedex-app/',
   },
   {
     id: uuidv4(),
@@ -38,6 +40,14 @@ const projects = [
     img: PasswordGenerator,
     ghlink: 'https://github.com/lojickse7en/password-generator',
     wslink: 'https://lojickse7en.github.io/password-generator/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Client Cattle Website',
+    desc: 'A website for one of clients selling cattle. Built using NextJS 14, Tailwind and APIs used to handle form submissions.',
+    img: BCCWebsite,
+    ghlink: 'https://github.com/lojickse7en/brotherscattleco_nextjs',
+    wslink: 'https://brotherscattleco.com/',
   },
   {
     id: uuidv4(),
