@@ -77,29 +77,32 @@ export default function ProjectSection() {
               },
             }}
           >
-            {projects.map((project, index) => {
+            {projects.map((item, index) => {
+              // limit the number of items on the slider to less than 6
               if (index >= 5) return;
 
-              if (index === 4) {
+              if (!item.ghlink) {
                 return (
-                  <SwiperSlide key={project.id}>
+                  <SwiperSlide key={item.id}>
                     <ProjectItem2
-                      title={project.name}
-                      img={project.img}
-                      desc={project.desc}
-                      wslink={project.wslink}
+                      key={item.id}
+                      title={item.name}
+                      desc={item.desc}
+                      img={item.img}
+                      wslink={item.wslink}
                     />
                   </SwiperSlide>
                 );
               }
               return (
-                <SwiperSlide key={project.id}>
+                <SwiperSlide key={item.id}>
                   <ProjectItem
-                    title={project.name}
-                    img={project.img}
-                    desc={project.desc}
-                    ghlink={project.ghlink}
-                    wslink={project.wslink}
+                    key={item.id}
+                    title={item.name}
+                    desc={item.desc}
+                    img={item.img}
+                    ghlink={item.ghlink}
+                    wslink={item.wslink}
                   />
                 </SwiperSlide>
               );

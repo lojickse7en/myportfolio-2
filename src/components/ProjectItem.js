@@ -65,10 +65,10 @@ export default function ProjectItem({
         </Link>
         <p className="projectItem__desc">{desc}</p>
         <div className="project__button">
-          <a href={wslink}>
+          <a href={wslink} target="_blank" rel="noreferrer">
             <BiWorld size="75" />
           </a>
-          <a href={ghlink}>
+          <a href={ghlink} target="_blank" rel="noreferrer">
             <BsGithub size="62" />
           </a>
         </div>

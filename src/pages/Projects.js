@@ -77,7 +77,7 @@ export default function Projects() {
               onChange={handleChange}
               placeholder="Project Name"
             />
-            <MdSearch className="searchIcon" />
+            <MdSearch className="searchIcon" size={40} />
           </form>
         </div>
         <div className="projects__allItems">

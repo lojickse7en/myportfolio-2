@@ -47,7 +47,7 @@ const ProjectItemStyles = styled.div`
     padding: 20px 0px;
   }
 `;
-export default function ProjectItem({
+export default function ProjectItem2({
   img = projectImg,
   title = 'Project Name',
   desc = 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor',
@@ -64,7 +64,7 @@ export default function ProjectItem({
         </Link>
         <p className="projectItem__desc">{desc}</p>
         <div className="project__button">
-          <a href={wslink}>
+          <a href={wslink} target="_blank" rel="noreferrer">
             <BiWorld size="75" />
           </a>
         </div>
