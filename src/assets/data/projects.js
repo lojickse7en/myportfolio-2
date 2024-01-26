@@ -57,13 +57,13 @@ const projects = [
     img: ConstructionWebsite,
     wslink: 'https://camtristate.com/',
   },
-  {
-    id: uuidv4(),
-    name: 'Welding Website',
-    desc: 'Website for a client who runs a Welding company. Built on WordPress CMS with some custom CSS and HTML',
-    img: WeldingWebsite,
-    wslink: 'https://rodriguezwelding.com/',
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: 'Welding Website',
+  //   desc: 'Website for a client who runs a Welding company. Built on WordPress CMS with some custom CSS and HTML',
+  //   img: WeldingWebsite,
+  //   wslink: 'https://rodriguezwelding.com/',
+  // },
 ];
 
 export default projects;
