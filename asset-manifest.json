@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio-2/static/css/main.23883dd6.css",
-    "main.js": "/myportfolio-2/static/js/main.44f30ee0.js",
+    "main.js": "/myportfolio-2/static/js/main.011383e4.js",
     "static/media/rod_welding_website.png": "/myportfolio-2/static/media/rod_welding_website.4fc75f52c7d2c19016c9.png",
     "static/media/camtristate_website.png": "/myportfolio-2/static/media/camtristate_website.302a556be7e9c3c8632e.png",
     "static/media/BCC_Screeshot.png": "/myportfolio-2/static/media/BCC_Screeshot.3446aa7d475efae0cb99.png",
@@ -18,10 +18,10 @@
     "static/media/scroll-down-arrow.svg": "/myportfolio-2/static/media/scroll-down-arrow.b013ca458cf827f32732e3ce3c691d03.svg",
     "static/media/social-media-arrow.svg": "/myportfolio-2/static/media/social-media-arrow.f5e093ceb316785e72dc77d75e5ed04f.svg",
     "main.23883dd6.css.map": "/myportfolio-2/static/css/main.23883dd6.css.map",
-    "main.44f30ee0.js.map": "/myportfolio-2/static/js/main.44f30ee0.js.map"
+    "main.011383e4.js.map": "/myportfolio-2/static/js/main.011383e4.js.map"
   },
   "entrypoints": [
     "static/css/main.23883dd6.css",
-    "static/js/main.44f30ee0.js"
+    "static/js/main.011383e4.js"
   ]
 }
