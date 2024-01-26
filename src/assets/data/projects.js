@@ -47,7 +47,7 @@ const projects = [
     desc: 'A website for one of clients selling cattle. Built using NextJS 14, Tailwind and APIs used to handle form submissions.',
     img: BCCWebsite,
     ghlink: 'https://github.com/lojickse7en/brotherscattleco_nextjs',
-    wslink: 'https://brotherscattleco.com/',
+    wslink: 'https://brotherscattleco-nextjs.vercel.app/',
   },
   {
     id: uuidv4(),
