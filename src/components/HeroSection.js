@@ -174,7 +174,7 @@ export default function HeroSection() {
               staying connected to the developer community.
             </PText>
             <Button
-              btnLink="https://resume.lojickse7en.io/Adebayo_Adewole_Resume.pdf"
+              btnLink="https://maskil.dev/resume/Adebayo_A_Resume.pdf"
               // href={ResumePDF}
               // href={require('../assets/data/AdebayoAdewoleResume.pdf')}
               btnText="Resume ⤓"
@@ -241,3 +241,4 @@ export default function HeroSection() {
     </HeroStyles>
   );
 }
+
